@@ -1,0 +1,59 @@
+html {
+    background-color: #02005f;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.relative {
+    position: relative;
+    z-index: 2;
+}
+
+#header, a {
+    text-decoration: none;
+    color: #02005f;
+}
+
+#header:hover, a:hover {
+    color: #1cddff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(166, 255, 255),
+    0 0 82px rgb(193, 251, 255),
+    0 0 92px rgb(229, 255, 246),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+
+#chickenPic {
+    width: 500px;
+    height: 365px;
+    position: relative;
+    z-index: 2;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.recipeIngredients, .recipeDirections {
+    display: inline-block;
+    text-align: left;
+}
+
+.art {
+    position: fixed;
+    top: 0px;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(214, 245, 253);
+    z-index: 1;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bolder;
+}

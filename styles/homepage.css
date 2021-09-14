@@ -2,6 +2,7 @@ html {
     background-color: #02005f;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
 }
 
 #header {
@@ -69,8 +70,6 @@ li {
     0 0 7px rgb(255, 0, 0),
     0 0 10px rgb(255, 111, 111),
     0 0 21px rgb(255, 210, 210),
-    
-
 }
 
 ul {
@@ -87,3 +86,30 @@ ul {
     z-index: 1;
 }
 
+@media only screen and (max-width: 1100px) {
+    #burger {
+        width: 250px;
+        height: 150px;
+    }
+
+    #chicken {
+        width: 250px;
+        height: 165px;
+    }
+
+    #rum {
+        width: 250px;
+        height: 150px;
+    }
+
+    #gordon {
+        width: 250px;
+        height: 170px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+
+  }

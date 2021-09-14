@@ -16,10 +16,7 @@ html {
     0 0 10px #fff,
     0 0 21px #fff,
     0 0 42px rgb(166, 255, 255),
-    0 0 82px rgb(193, 251, 255),
-    0 0 92px rgb(229, 255, 246),
-    0 0 102px rgb(255, 255, 255),
-    0 0 151px rgb(255, 255, 255);
+
 }
 
 ul, ol {
@@ -56,4 +53,19 @@ ul, ol {
 h3 {
     font-size: 22px;
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 1100px) {
+    #burgerPic {
+        width: 250px;
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+      font-size: 13px;
+    }
 }

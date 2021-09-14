@@ -1,0 +1,93 @@
+html {
+    background-color: #02005f;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    text-decoration: none;
+    color: #02005f;
+    position: relative;
+    z-index: 3;
+}
+
+#header:hover {
+    color: #1cddff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(166, 255, 255),
+    0 0 82px rgb(193, 251, 255),
+    0 0 92px rgb(229, 255, 246),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+
+#gordon {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}
+
+#burger {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}
+
+#chicken {
+    width: 500px;
+    height: 365px;
+    position: relative;
+    z-index: 2;
+}
+
+#rum {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.recipes {
+    text-decoration: none;
+    color: rgb(243, 158, 0);
+    position: relative;
+    z-index: 2;
+}
+
+li {
+    margin-top: 15px;
+    font-size: 20px;
+}
+.recipes:hover {
+    text-decoration: underline;
+    color: orangered;
+    font-size: 21px;
+    text-shadow:
+    0 0 7px rgb(255, 0, 0),
+    0 0 10px rgb(255, 111, 111),
+    0 0 21px rgb(255, 210, 210),
+    
+
+}
+
+ul {
+    list-style: none;
+}
+
+.art {
+    position: fixed;
+    top: 0px;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(214, 245, 253);
+    z-index: 1;
+}
+

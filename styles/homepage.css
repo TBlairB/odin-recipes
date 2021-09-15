@@ -110,6 +110,10 @@ ul {
     li {
         font-size: 15px;
     }
+    
+    .recipes:hover {
+        font-size: 16px;
+    }
 
 
   }

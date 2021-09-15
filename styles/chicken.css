@@ -20,7 +20,8 @@ html {
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px rgb(166, 255, 255)
+    0 0 42px rgb(166, 255, 255),
+    
 }
 
 #chickenPic {
@@ -52,4 +53,20 @@ ul, ol {
 h3 {
     font-size: 22px;
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 1100px) {
+    #chickenPic {
+        width: 250px;
+        height: 165px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
 }
